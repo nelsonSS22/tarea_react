@@ -1,0 +1,6 @@
+/* Estilos para la clase 'row' que contiene las tarjetas */
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
+    gap: 20px; /* Espacio entre las tarjetas */
+  }
