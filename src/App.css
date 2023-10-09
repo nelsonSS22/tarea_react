@@ -1,6 +1,32 @@
-/* Estilos para la clase 'row' que contiene las tarjetas */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#root{
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card{
+  height: 150%;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
 .row {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
-    gap: 20px; /* Espacio entre las tarjetas */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px; 
   }
+.stays{
+  text-align: right;
+  padding: 5px 120px;
+}
